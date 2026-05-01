@@ -26,7 +26,8 @@ let score = 0;
 document.getElementById("score").innerText = score;
 
 function add() {
-  score++;
+  score = score + clickPower;
   document.getElementById("score").innerText = score;
 }
+let clickPower = 1;
 </script>
